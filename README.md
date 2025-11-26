@@ -4,7 +4,7 @@
 
 Este tutorial ensina como transformar um smartphone Android potente em um **Servidor Dedicado oficial do Minecraft Bedrock**, rodando via Termux + Ubuntu + Box64. O método foi testado com **horas de uptime estável**, executando a versão **1.21.124** do Bedrock Server.
 
----
+
 
 ## 📋 Índice
 
@@ -18,7 +18,7 @@ Este tutorial ensina como transformar um smartphone Android potente em um **Serv
 8. [FAQ](#8-faq)
 9. [Resumo](#9-resumo)
 
----
+
 
 ## 1. SERVIDOR LOCAL (LAN)
 
@@ -120,7 +120,7 @@ chmod +x iniciar.sh
 Agora o servidor já funciona **somente para jogadores da mesma rede local** (LAN/Wi-Fi).  
 Se quiser jogar online, continue para a próxima parte.
 
----
+
 
 ## 2. SERVIDOR ONLINE (INTERNET)
 
@@ -207,7 +207,7 @@ Ele gerará um IP como:
 
 ✅ Pronto — servidor online, estável e com IP público.
 
----
+
 
 ## 3. CONFIGURAÇÃO DO SERVIDOR
 
@@ -339,7 +339,7 @@ unzip -o ~/server_novo.zip
 5. **NÃO sobrescreva**: `server.properties`, `whitelist.json`, `permissions.json`, pasta `worlds/`
 6. Reinicie o servidor
 
----
+
 
 ## 5. MONITORAMENTO E LOGS
 
@@ -374,7 +374,7 @@ Use o app **Armoury Crate** ou **Game Genie** do ROG Phone para monitorar temper
 - ⚠️ 45-55°C: Normal sob carga
 - ❌ 55°C+: Reduza carga ou melhore ventilação
 
----
+
 
 ## 6. OTIMIZAÇÃO – ROG PHONE 5s
 
@@ -386,7 +386,7 @@ Para máxima performance e durabilidade:
 - ✅ Reduz consumo e mantém temperatura baixa
 - ✅ Bateria não descarrega nem carrega
 
----
+
 
 ## 7. TROUBLESHOOTING
 
@@ -465,7 +465,7 @@ tar -xzf backup_mundo_[DATA].tar.gz
 4. ✅ Whitelist desativada ou jogador adicionado?
 5. ✅ IP correto do Playit? (verifique no site)
 
----
+
 
 ## 8. FAQ
 
@@ -495,7 +495,7 @@ Sim, mas cada um precisa de:
 - Porta diferente no `server.properties`
 - Túnel Playit separado
 
----
+
 
 ## 9. RESUMO
 
@@ -511,7 +511,7 @@ Este tutorial cobre:
 - ✔ Otimização do hardware do ROG Phone
 - ✔ FAQ com dúvidas frequentes
 
----
+
 
 ## 📞 Suporte
 
@@ -522,7 +522,7 @@ Se tiver dúvidas ou problemas, verifique:
 - Porta 19132 está configurada corretamente no túnel
 - Seção de [Troubleshooting](#7-troubleshooting) para problemas comuns
 
----
+
 
 ## 🎯 Dicas Finais
 
@@ -538,13 +538,13 @@ Se tiver dúvidas ou problemas, verifique:
 - 10-15 jogadores: Possível lag leve em áreas densas
 - 15+ jogadores: Necessário otimizar configurações
 
----
+
 
 ## 📝 Licença
 
 Este é um guia educacional. Minecraft® é marca registrada da Mojang AB/Microsoft Corporation.
 
----
+
 
 **Desenvolvido e testado com ASUS ROG Phone 5s**  
 **Versão do servidor: Bedrock 1.21.124**  
