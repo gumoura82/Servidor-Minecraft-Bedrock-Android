@@ -1,0 +1,23 @@
+# Arquivos do servidor Minecraft
+bedrock_server
+*.zip
+worlds/
+permissions.json
+whitelist.json
+server.properties
+allowlist.json
+
+# Logs
+*.log
+*.txt
+
+# Backups
+backup_*/
+*.tar.gz
+
+# Playit
+playit-linux-aarch64
+
+# Sistema
+.DS_Store
+Thumbs.db
