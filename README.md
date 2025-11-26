@@ -1,9 +1,12 @@
 # SERVIDOR DEDICADO MINECRAFT BEDROCK NO ANDROID
 
+### Atualizações do Guia
+
+Ainda estou vendo se posso otimizar mais o server, também estou estudando como posso colocar addons e texturas no servidor. Caso eu consiga vou atualizar o Guia assim que possível.
+
 ### Guia Completo (Local + Online)
 
 Este tutorial ensina como transformar um smartphone Android potente em um **Servidor Dedicado oficial do Minecraft Bedrock**, rodando via Termux + Ubuntu + Box64. O método foi testado com **horas de uptime estável**, executando a versão **1.21.124** do Bedrock Server. No caso usei o celular ASUS ROG Phone 5s, mas pode ser qualquer outro celular que tenha uma potência boa.
-
 
 
 ## 📋 Índice
