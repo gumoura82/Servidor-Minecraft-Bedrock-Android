@@ -7,14 +7,13 @@
 
 Transforme qualquer smartphone Android potente em um **servidor dedicado oficial do Minecraft Bedrock**, rodando via Termux + Ubuntu + Box64.
 
-**Testado com sucesso em:**
-- ✅ ASUS ROG Phone 5s (dispositivo de referência dos testes)
-- ✅ Xiaomi Poco F3
-- ✅ Samsung Galaxy S21+
-- ✅ OnePlus 9 Pro
-- ✅ Outros dispositivos com Snapdragon 800+ reportados pela comunidade
+**Dispositivo testado:**
+- ✅ ASUS ROG Phone 5s (dispositivo usado no desenvolvimento deste guia)
 
----
+**Outros dispositivos compatíveis reportados:**
+- Qualquer Android com Snapdragon 800+ e 6GB+ RAM
+- Qualquer Android com Dimensity 1000+ e 8GB+ RAM
+- Alguns modelos com Exynos 2100+ (compatibilidade pode variar)
 
 ## 📋 Índice
 
@@ -29,8 +28,6 @@ Transforme qualquer smartphone Android potente em um **servidor dedicado oficial
 9. [Compatibilidade e Limitações](#9-compatibilidade-e-limitações)
 10. [Contribuições da Comunidade](#10-contribuições-da-comunidade)
 11. [Resumo](#11-resumo)
-
----
 
 ## 1. SERVIDOR LOCAL (LAN)
 
@@ -56,12 +53,9 @@ Rodar o servidor oficial da Mojang (x86_64) em um celular ARM64 sem perda de des
 - **Armazenamento:** 5 GB livres
 - **Conexão:** Adaptador USB-C → Ethernet (para máxima estabilidade)
 
-**Dispositivos testados pela comunidade:**
-- ✅ ASUS ROG Phone 5s (referência dos testes - desempenho excelente)
-- ✅ Xiaomi Poco F3 (bom desempenho, esquenta um pouco)
-- ✅ Samsung Galaxy S21/S22/S23 (desempenho sólido)
-- ✅ OnePlus 9 Pro (funciona muito bem)
-- ⚠️ **Evite:** Celulares com menos de 6GB RAM ou processadores abaixo de Snapdragon 730
+**Dispositivos testados:**
+- ✅ ASUS ROG Phone 5s (referência deste guia - desempenho excelente)
+- ⚠️ **Outros dispositivos:** Qualquer Android com especificações similares ou superiores deve funcionar, mas não foram testados pelo autor
 
 **Software:**
 
@@ -138,8 +132,6 @@ chmod +x iniciar.sh
 
 ✅ **Pronto!** O servidor já funciona **somente para jogadores da mesma rede local** (LAN/Wi-Fi).  
 Se quiser jogar online, continue para a próxima parte.
-
----
 
 ## 2. SERVIDOR ONLINE (INTERNET)
 
@@ -744,17 +736,7 @@ Abra uma issue ou pull request reportando:
 - ✅ Problemas encontrados (se houver)
 - ✅ Soluções aplicadas
 
-### Dispositivos reportados pela comunidade:
-
-| Dispositivo | Chipset | RAM | Jogadores | Status | Observações |
-|-------------|---------|-----|-----------|--------|-------------|
-| ROG Phone 5s | SD 888+ | 12GB | 15 | ✅ Excelente | Referência do teste |
-| Poco F3 | SD 870 | 8GB | 10 | ✅ Bom | Esquenta um pouco |
-| Galaxy S21+ | Exynos 2100 | 8GB | 8 | ⚠️ OK | Throttling após 2h |
-| OnePlus 9 Pro | SD 888 | 12GB | 12 | ✅ Muito Bom | Estável |
-| Poco X3 Pro | SD 860 | 6GB | 6 | ✅ Aceitável | Limite de 6 jogadores |
-
-**Quer adicionar seu teste?** Abra uma issue no GitHub!
+**Sua contribuição ajuda a comunidade a saber quais dispositivos funcionam melhor!**
 
 ---
 
@@ -813,10 +795,12 @@ Se tiver dúvidas ou problemas, verifique:
 - Versão do servidor: Bedrock 1.21.124
 - Box64 + Ubuntu 22.04 via Termux
 
-**Contribuições da comunidade:**
-- Testes em Xiaomi Poco F3
-- Testes em Samsung Galaxy S21+
-- Testes em OnePlus 9 Pro
+**Tecnologias utilizadas:**
+- [Termux](https://termux.dev/) - Emulador de terminal Android
+- [proot-distro](https://github.com/termux/proot-distro) - Distribuições Linux no Termux
+- [Box64](https://github.com/ptitSeb/box64) - Emulador x86_64 para ARM64
+- [Playit.gg](https://playit.gg/) - Túnel de rede gratuito
+- [Minecraft Bedrock Server](https://www.minecraft.net/en-us/download/server/bedrock) - Servidor oficial da Mojang
 
 ---
 
