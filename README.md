@@ -6,6 +6,17 @@
 
 Guia para rodar o servidor oficial do Minecraft Bedrock em dispositivos Android usando Termux + Ubuntu + Box64.
 
+**Nota:** Este guia foi testado com a versão 1.21.124, mas deve funcionar com outras versões do Bedrock Server seguindo os mesmos passos.
+
+## ⚠️ AVISO IMPORTANTE
+
+Este guia é fornecido para fins educacionais. O uso prolongado do celular como servidor pode:
+- Aumentar significativamente a temperatura do dispositivo
+- Reduzir a vida útil da bateria
+- Causar desgaste acelerado do hardware
+
+**Use por sua conta e risco.** Os autores não se responsabilizam por danos ao dispositivo ou perda de dados. Faça backups regulares e monitore a temperatura constantemente.
+
 ## REQUISITOS
 
 **Hardware Mínimo:**
@@ -505,103 +516,67 @@ Se não houver backup, o mundo está perdido.
 
 ## 7. FAQ
 
-## Funciona em qualquer Android?
-
+**Funciona em qualquer Android?**  
 Não. Requer processador compatível (Snapdragon 800+, Dimensity 1000+, Exynos 2100+), 6GB+ RAM e Android 10+.
 
-## Precisa de root?
-
+**Precisa de root?**  
 Não.
 
-## É gratuito?
-
+**É gratuito?**  
 Sim. Tudo é gratuito.
 
-## Posso rodar 24/7?
+**Posso rodar 24/7?**  
+Sim, desde que mantenha plugado na tomada, tenha boa ventilação, monitore temperatura regularmente e desative economia de bateria para Termux. Celulares com bypass charging (ASUS ROG) são ideais para operação contínua.
 
-Sim, desde que:
-- Mantenha plugado na tomada
-- Tenha boa ventilação
-- Monitore temperatura regularmente
-- Desative economia de bateria para Termux
+**Quantos jogadores suporta?**  
+Depende da RAM: 6GB = 5-8 jogadores | 8GB = 8-12 jogadores | 12GB+ = 12-20 jogadores.
 
-Celulares com bypass charging (ASUS ROG) são ideais para operação contínua.
-
-## Quantos jogadores suporta?
-
-Depende da RAM:
-- 6GB: 5-8 jogadores
-- 8GB: 8-12 jogadores
-- 12GB+: 12-20 jogadores
-
-## Consome muita bateria?
-
+**Consome muita bateria?**  
 Sim. Mantenha sempre plugado.
 
-## Funciona com mods?
-
+**Funciona com mods?**  
 Não suporta mods do Java Edition. Aceita addons, behavior packs e resource packs do Bedrock.
 
-## Wi-Fi ou Ethernet?
-
+**Wi-Fi ou Ethernet?**  
 Ethernet é superior (estabilidade, latência). Use adaptador USB-C → RJ45 (~R$30-80).
 
-## Quanto de dados consome?
-
+**Quanto de dados consome?**  
 Aproximadamente 10-50 MB/hora por jogador.
 
-## Como atualizar?
-
+**Como atualizar?**  
 1. Faça backup do mundo
 2. Pare o servidor
 3. Baixe nova versão do Bedrock Server
 4. Extraia sobrescrevendo: `unzip -o bedrock-server-NOVO.zip`
-5. **Não sobrescreva:** `server.properties`, `whitelist.json`, `permissions.json`, pasta `worlds/`
+5. Não sobrescreva: `server.properties`, `whitelist.json`, `permissions.json`, pasta `worlds/`
 6. Reinicie
 
-## Funciona em iOS?
-
+**Funciona em iOS?**  
 Não. Apenas Android.
 
-## Melhores celulares para servidor?
-
-**Budget:** Poco F5, Realme GT Neo 3
-**Intermediário:** Xiaomi 13T, OnePlus 11R
-**Premium:** ASUS ROG Phone 6/7 (ideal para 24/7), OnePlus 12
-
-Priorize: Snapdragon 800+, 8GB+ RAM, boa refrigeração.
+**Melhores celulares para servidor?**  
+Budget: Poco F5, Realme GT Neo 3 | Intermediário: Xiaomi 13T, OnePlus 11R | Premium: ASUS ROG Phone 6/7 (ideal para 24/7), OnePlus 12. Priorize: Snapdragon 800+, 8GB+ RAM, boa refrigeração.
 
 ## OTIMIZAÇÃO TÉRMICA
 
-### Geral
-
+**Geral:**
 - Remova capas
 - Mantenha em local ventilado
 - Reduza brilho da tela
 - Feche apps em segundo plano
 - Use Ethernet em vez de Wi-Fi
 
-### Por marca
+**Por marca:**
 
-**ASUS ROG Phone:**
-- Ative Bypass Charging (Game Genie)
-- Use AeroActive Cooler se disponível
-- Modo X no Armoury Crate
+ASUS ROG Phone: Ative Bypass Charging (Game Genie), use AeroActive Cooler se disponível, Modo X no Armoury Crate.
 
-**Xiaomi/Poco:**
-- Modo performance (Bateria)
-- Game Turbo
-- Desative MIUI Optimization para Termux
+Xiaomi/Poco: Modo performance (Bateria), Game Turbo, desative MIUI Optimization para Termux.
 
-**Samsung:**
-- Enhanced Processing (Opções de desenvolvedor)
-- Game Booster → Performance
+Samsung: Enhanced Processing (Opções de desenvolvedor), Game Booster → Performance.
 
-**OnePlus:**
-- Gaming Mode → Performance
+OnePlus: Gaming Mode → Performance.
 
-### Acessórios
-
+**Acessórios:**
 - Mini ventilador USB (~R$20-50)
 - Suporte com ventilação
 - Dissipador de cobre/alumínio (~R$15-30)
@@ -638,3 +613,9 @@ Priorize: Snapdragon 800+, 8GB+ RAM, boa refrigeração.
 Minecraft® é marca registrada da Mojang AB/Microsoft Corporation.
 
 **Última atualização:** Fevereiro 2026
+
+## LICENÇA
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
