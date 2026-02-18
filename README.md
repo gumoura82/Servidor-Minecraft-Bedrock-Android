@@ -598,7 +598,6 @@ OnePlus: Gaming Mode → Performance.
 4. Playit cria túnel UDP para acesso externo
 
 **Limitações:**
-- Não roda mods Java
 - Performance depende do hardware
 - Aquecimento pode ser limitante
 - Playit gratuito tem limites de túneis
